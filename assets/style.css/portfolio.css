@@ -1,0 +1,96 @@
+/*Navbar*/
+.navbar-nav{
+    margin-left: auto !important;
+    padding-right: 20px;}
+
+.headnav{
+    background-color: hwb(0 100% 0%)!important;
+    border-color: #e7e7e7 !important;
+width: 100%;}
+
+.navbar{padding: 0%;}
+
+#navbarSupportedContent{margin-left: auto !important;}
+
+.name{
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Georgia, Times, "Times New Roman", serif;}
+
+
+.nav-link{
+    color: #999 !important;
+    font-size: 20px;}
+
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+    padding-left: 15px;}
+
+
+ul li+li::before{
+    content: "";
+    border-left: 1px solid grey;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 15px;
+    display: inline-block;}
+
+li{padding: 0%;}
+
+.nav-link{display: inline;}
+
+
+
+/*Main menu*/
+.h5{
+    color:white;
+    background-color: #4aaaa5;
+    width: 100%;}
+
+h2{
+    color: #4aaaa5 !important;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;}
+
+
+h3{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5 !important;}
+
+body{background-image: url(./../images/concrete_seamless.png);}
+
+.section{width: 100%;}
+.imgg{width: 60px;}
+
+ /*Footer*/
+
+ footer{clear: both;}
+
+ .footer{ 
+    
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+    border-top: solid  #4aaaa5 6px;
+    color: #cccccc;}
+
+    
+   
+
+         
+          
+          
+
+ 
+
+
+
