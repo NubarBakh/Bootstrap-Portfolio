@@ -76,10 +76,10 @@ body{background-image: url(./../images/concrete_seamless.png);}
  .footer{
     background-color: #666666;
     
-    text-align: center;
+    text-align: center !important;
     padding: 10px;
     border-top: solid  #4aaaa5 6px;
     color: #cccccc;
 
-    bottom: 0;
-    width: 100%;}
+    bottom: 0 !important;
+    width: 100% !important;}
