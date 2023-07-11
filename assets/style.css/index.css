@@ -46,6 +46,7 @@ li{padding: 0%;}
 
    /*Main menu*/
 .section{width: 100%;
+    padding-bottom: 3.5rem;
 }
 
 .nate{
@@ -72,7 +73,13 @@ body{background-image: url(./../images/concrete_seamless.png);}
  /*Footer*/
 
     .footer{
-
+      
+        position: absolute !important;
+    padding: 20px 0;
+    clear: both !important;
+    
+  
+    margin-top: auto !important;
     background-color: #666666;
     text-align: center !important;
     padding: 10px;
@@ -80,6 +87,12 @@ body{background-image: url(./../images/concrete_seamless.png);}
     color: #cccccc;
     bottom: 0 !important;
     width: 100% !important;}
+
+    html, body{min-height: 100vh !important;}
+    body {
+        position: relative !important;
+        flex-direction: column !important;
+      }
     
 
 
